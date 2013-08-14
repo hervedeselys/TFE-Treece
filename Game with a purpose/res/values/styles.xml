@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="CustomProgressBarHorizontal" parent="android:Widget.Holo.ProgressBar.Horizontal">
+         <item name="android:progressDrawable">@drawable/custom_progress_bar_horizontal</item>
+    </style>
+
+</resources>

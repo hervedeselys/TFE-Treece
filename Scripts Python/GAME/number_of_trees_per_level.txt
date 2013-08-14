@@ -1,0 +1,15 @@
+Level1: 137 trees
+Level2: 132 trees
+Level3: 113 trees
+Level4: 104 trees
+Level5: 91 trees
+Level6: 88 trees
+Level7: 89 trees
+Level8: 75 trees
+Level9: 78 trees
+Level10: 66 trees
+Level11: 60 trees
+Level12: 33 trees
+Level13: 22 trees
+Level14: 18 trees
+Level15: 10 trees

@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ulg.game.with.a.purpose"
+    android:versionCode="12"
+    android:versionName="1.1" >
+
+   <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="18" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+   <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+        <activity
+            android:name=".ScatterPlotActivityGame"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+        <activity
+            android:name=".ScatterPlotActivityLearning"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+         <activity
+            android:name=".RankingActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+         <activity
+            android:name=".GridActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+         <activity
+            android:name=".DecisionTreeViewerActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+        <activity
+            android:name=".HelpActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+         <activity
+            android:name=".HelpGameActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+        <activity
+            android:name=".HelpLearningActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="sensorPortrait">
+        </activity>
+        
+    </application>
+
+</manifest>

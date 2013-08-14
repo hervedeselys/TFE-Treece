@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="264" y="32" measuredWidth="430" measuredHeight="844">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android4/Android4.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="302" y="200" width="359" measuredWidth="359" measuredHeight="55">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Android4/Android4.screen#Text%20Size%20Large"/>
+    <overrides>
+      <widgets ref="4" width="359" text="The Grid">
+        <attributes key="textAlignment" value="Center"/>
+        <font size="40px" underline="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Chart" id="3" x="360" y="309" width="281" height="307" measuredWidth="281" measuredHeight="307" chartType="line"/>
+  <widgets xsi:type="model:Panel" id="4" x="376" y="328" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="5" x="460" y="328" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="6" x="460" y="425" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="7" x="460" y="520" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="8" x="376" y="425" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="9" x="376" y="520" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="10" x="544" y="328" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="11" x="544" y="425" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Panel" id="12" x="544" y="520" width="75" height="75" measuredWidth="75" measuredHeight="75"/>
+  <widgets xsi:type="model:Label" id="13" x="312" y="537" text="X3" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="406" y="632" text="X2" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="488" y="632" text="X3" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="568" y="632" text="X4" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="312" y="442" text="X4" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="312" y="345" text="X5" measuredWidth="36" measuredHeight="41">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Chart" id="19" x="386" y="335" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="20" x="470" y="335" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="21" x="554" y="335" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="22" x="386" y="432" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="23" x="470" y="432" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="24" x="554" y="432" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="25" x="386" y="527" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="26" x="470" y="527" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Chart" id="27" x="554" y="527" width="55" height="62" measuredWidth="55" measuredHeight="62" chartType="line"/>
+  <widgets xsi:type="model:Master" id="28" x="481" y="442" measuredWidth="82" measuredHeight="38" annotation="true">
+    <screen xsi:type="model:WidgetGroup" href="../assets/TouchGestures/TouchGestures.screen#Swipe%20Right"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="481" y="401" measuredWidth="38" measuredHeight="81" annotation="true">
+    <screen xsi:type="model:WidgetGroup" href="../assets/TouchGestures/TouchGestures.screen#Swipe%20Up"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="435" y="442" measuredWidth="81" measuredHeight="38" annotation="true">
+    <screen xsi:type="model:WidgetGroup" href="../assets/TouchGestures/TouchGestures.screen#Swipe%20Left"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="31" x="478" y="442" measuredWidth="38" measuredHeight="82" annotation="true">
+    <screen xsi:type="model:WidgetGroup" href="../assets/TouchGestures/TouchGestures.screen#Swipe%20Down"/>
+  </widgets>
+  <widgets xsi:type="model:ScratchOut" id="32" x="544" y="425" width="75" height="75" measuredWidth="75" measuredHeight="75" annotation="true" alpha="192"/>
+  <widgets xsi:type="model:ScratchOut" id="33" x="460" y="520" width="75" height="75" measuredWidth="75" measuredHeight="75" annotation="true" alpha="192"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

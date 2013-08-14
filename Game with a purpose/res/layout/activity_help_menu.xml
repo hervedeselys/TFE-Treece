@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity" >
+
+    <TextView
+        android:id="@+id/title_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/help_u"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/help_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help_learning"
+        android:layout_below="@+id/title_help"
+        android:layout_marginTop="70dp"
+        android:text="@string/help_game"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/help_learning"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/back"
+        android:layout_below="@+id/help_game"
+        android:layout_marginTop="40dp"
+        android:text="@string/help_learning"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/back"
+        android:textSize="@dimen/text_size" />
+    
+</RelativeLayout>

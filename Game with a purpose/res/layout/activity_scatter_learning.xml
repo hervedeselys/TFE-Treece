@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical" >
+
+    <com.ulg.game.with.a.purpose.ScatterPlotView
+        android:id="@+id/scatterPlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hortizontal_separator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <View
+        android:id="@+id/center_separator"
+        android:layout_width="4dip"
+        android:layout_height="@dimen/navigation_bar_heigth"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/dividerVertical" />
+
+    <View
+        android:id="@+id/hortizontal_separator"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_above="@+id/center_separator"
+        android:background="?android:attr/dividerVertical" />
+
+    <View
+        android:id="@+id/hortizontal_button_separator"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_above="@+id/back_button"
+        android:layout_toRightOf="@id/center_separator"
+        android:layout_alignParentRight="true"
+        android:background="?android:attr/dividerVertical" />
+
+    <Button
+        android:id="@+id/validate_button"
+        android:layout_width="@dimen/navigation_bar_bouton_width"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_above="@+id/hortizontal_button_separator"
+        android:layout_toRightOf="@id/center_separator"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hortizontal_separator"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/validate"
+        android:textSize="@dimen/text_size" />
+
+    <View
+        android:id="@+id/third_separator"
+        android:layout_width="4dip"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_above="@+id/hortizontal_button_separator"
+        android:layout_alignTop="@+id/back_button"
+        android:background="?android:attr/dividerVertical" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/CustomProgressBarHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hortizontal_separator"
+        android:layout_toLeftOf="@+id/center_separator" />
+
+    <TextView
+        android:id="@+id/scatter_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/progress_bar"
+        android:text="@string/n_scatter"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/text_size_scatter_info" />
+
+    <TextView
+        android:id="@+id/local_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scatter_info"
+        android:text="@string/local_error"
+        android:textSize="@dimen/text_size_scatter_info" />
+
+    <TextView
+        android:id="@+id/global_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/local_error"
+        android:text="@string/global_error"
+        android:textSize="@dimen/text_size_scatter_info" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/navigation_bar_bouton_width"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/center_separator"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/back"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

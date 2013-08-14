@@ -1,0 +1,5 @@
+IRIS: 18 trees
+BREASTCANCER: 4 trees
+PIMA: 6 trees
+VEHICLE: 3 trees
+LANDSAT: 4 trees

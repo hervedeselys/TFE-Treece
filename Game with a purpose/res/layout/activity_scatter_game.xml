@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical" >
+
+    <com.ulg.game.with.a.purpose.ScatterPlotView
+        android:id="@+id/scatterPlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hortizontal_separator"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/timer_header"
+        android:textSize="@dimen/text_size" />
+    
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/score"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/text_size" />
+    
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/progress_bar"
+        android:text="@string/level_h"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/text_size" />
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/CustomProgressBarHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hortizontal_separator"
+        android:layout_toLeftOf="@+id/center_separator" />
+
+    <View
+        android:id="@+id/third_separator"
+        android:layout_width="4dip"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_below="@+id/validate_button"
+        android:background="?android:attr/dividerVertical" />
+
+    <View
+        android:id="@+id/center_separator"
+        android:layout_width="4dip"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/dividerVertical" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="@dimen/navigation_bar_bouton_width"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/first_separator"
+        android:layout_toRightOf="@+id/center_separator"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/skip"
+        android:textSize="@dimen/text_size" />
+
+    <View
+        android:id="@+id/first_separator"
+        android:layout_width="4dip"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/validate_button"
+        android:background="?android:attr/dividerVertical" />
+
+    <View
+        android:id="@+id/hortizontal_separator"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_above="@+id/center_separator"
+        android:layout_alignParentLeft="true"
+        android:background="?android:attr/dividerVertical" />
+
+    <Button
+        android:id="@+id/validate_button"
+        android:layout_width="@dimen/navigation_bar_bouton_width"
+        android:layout_height="@dimen/navigation_bar_bouton_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/validate"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/time_bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timer"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/score_bonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/score"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/next_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40sp" />
+
+</RelativeLayout>

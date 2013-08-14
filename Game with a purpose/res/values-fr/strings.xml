@@ -1,0 +1,215 @@
+<resources>   
+    
+    <string name="app_name">Treece</string>
+    <string name="the_game_u"><u>Le Jeu</u></string>   
+    <string name="the_game">Le Jeu</string>
+    <string name="game_with_a_purpose"><u>Treece</u></string>
+    <string name="learning">Apprentissage</string>
+    <string name="leave">Quitter</string>
+    <string name="ranking">Classement</string>
+    <string name="back">Retour</string>
+    <string name="go">C\'est parti !</string>
+    <string name="new_game">Nouveau jeu</string>
+    <string name="skip">Passer</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précedent</string>
+    <string name="top10_title">Top 10</string>
+    <string name="rank_header">Rang</string>
+    <string name="score_ranking">Score</string>
+    <string name="player_ranking">Joueur</string>
+    <string name="rank_1">1.</string>
+    <string name="rank_2">2.</string>
+    <string name="rank_3">3.</string>
+    <string name="rank_4">4.</string>
+    <string name="rank_5">5.</string>
+    <string name="rank_6">6.</string>
+    <string name="rank_7">7.</string>
+    <string name="rank_8">8.</string>
+    <string name="rank_9">9.</string>
+    <string name="rank_10">10.</string>
+    <string name="score">Score:</string>
+    <string name="level_h">Niveau:</string>
+    <string name="level">Niveau</string>
+    <string name="timer_header">Temps:</string>
+    <string name="timer_over">Temps écoulé !</string>
+    <string name="game_over">Partie terminée</string>
+    <string name="stop">Stop</string>
+    <string name="validate">Valider</string>
+    <string name="tree_view">Vue de l\'arbre</string>
+    <string name="finish">Terminer</string>
+    <string name="straightOff">Droit Off</string>
+    <string name="straightOn">Droit On</string>
+    <string name="global_error">EG: </string>
+    <string name="local_error">EL: </string>
+    <string name="n_scatter">Scatter Plot:</string>
+    <string name="page_info">Page: </string>
+    <string name="help">Aide</string>
+    <string name="help_u"><u>Aide</u></string>
+    <string name="help_game">Le mode Jeu</string>
+    <string name="help_game_u"><u>Le mode Jeu</u></string>
+    <string name="help_learning">Le mode Apprentissage</string>
+    <string name="help_learning_u"><u>Le mode Apprentissage</u></string>
+    <string name="about">A propos</string>
+    <string name="about_u"><u>A propos</u></string>
+    <string name="page_number_game_1">1/4</string>
+    <string name="page_number_game_2">2/4</string>
+    <string name="page_number_game_3">3/4</string>
+    <string name="page_number_game_4">4/4</string>
+    <string name="page_number_learning_1">1/6</string>
+    <string name="page_number_learning_2">2/6</string>
+    <string name="page_number_learning_3">3/6</string>
+    <string name="page_number_learning_4">4/6</string>
+    <string name="page_number_learning_5">5/6</string>
+    <string name="page_number_learning_6">6/6</string>
+    <string name="dialog_msg_score">Voulez-vous entrer votre score?</string>
+    <string name="dialog_title_end">Terminé</string>
+    <string name="dialog_title_first_time_game">Comment jouer au jeu?</string>
+    <string name="dialog_msg_first_time_game">C\'est la première fois que vous 
+        lancez l\'application dans son mode Jeu. Voulez-vous accéder au menu d\'
+        aide afin d\'apprendre les règles du jeu?</string>
+    <string name="dialog_title_first_time_learning">Qu\'est-ce que le mode 
+        Apprentissage?</string>
+    <string name="dialog_msg_first_time_learning">Ce mode est dédié à des experts
+        dans le domaine de l\'apprentissage automatique. Voulez-vous quelques 
+        informations à propos de ce mode?</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="dialog_no">Non</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_try_again">Recommencez et tentez de faire mieux pour 
+        rentrer dans le Top 10.</string>
+    <string name="dialog_ranking">Classement</string>
+    <string name="dialog_enter_name">Entrez votre nom.</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_complete">Complet</string>
+    <string name="enjoy">Bon amusement!</string>
+    <string name="number_of_instances">Nombre d\'instances:</string>
+    <string name="number_of_attributes">Nombre d\'attributs:</string>
+    <string name="number_of_scatter_plot">Nombre de Scatter Plots:</string>
+    <string name="number_of_classes">Nombre de classes:</string>
+    <string name="choose_database">Choisissez une base de données</string>
+    <string name="loading">Chargement...</string>
+    <string name="network_issue">Vous avez besoin d\'une connexion active à
+        Internet pour pouvoir utiliser cette application. Veuillez activer votre 
+        Wifi ou vos données mobiles pour être connecté à Internet.</string>
+    <string name="title_network_issue">Connexion à Internet requise</string>
+    <string name="process_tree">Traitement de l\'arbre...</string>
+    <string name="next_node">Récupération du prochain noeud...</string>
+    <string name="build_prev_page">Construction de la page précédente...</string>
+    <string name="build_next_page">Construction de la page suivante...</string>
+    <string name="server_unreachable">Serveur injoignable</string>
+    <string name="server_unreachable_msg">Nous avons un problème serveur. Veuillez
+        réessayer plus tard. Merci pour votre compréhension.</string>
+    <string name="network_lose_title">Connexion perdue</string>
+    <string name="network_lose_msg">Il semblerait que vous ne soyez plus connecté
+        à Internet. Veuillez vérifier votre connexion Wifi ou vos données mobiles.</string>
+    <string name="thank_you">Vous avez construit l\'arbre avec succès. Vous
+        pouvez le visualiser en cliquant sur le bouton \"Vue de l\'arbre\".\nMerci
+        pour votre aide.</string>
+    <string name="root_level">Niveau Racine</string>
+    <string name="root">Racine</string>
+    <string name="node">Noeud</string>
+    <string name="node_threshold">Seuil du Noeud</string>
+    <string name="left_child">Enfant Gauche</string>
+    <string name="right_child">Enfant Droit</string>
+    <string name="current_node">(Noeud Courant)</string>
+    <string name="current_branch">(Branche Courante)</string>
+    <string name="help_game_fragment_0">Le but: séparer des points
+        de couleur. Pour cela, votre tâche est de tracer une droite entre 
+        ceux-ci en tentant de rassembler les points qui ont la même couleur. 
+        </string>
+    <string name="help_game_fragment_1">Quand cela est fait, vous pouvez 
+        valider votre droite et essayer de faire de même avec l\'autre partie de
+        l\'image. Si vous réussissez à séparer au mieux les points en groupes 
+        de différentes couleurs, vous atteindrez le niveau suivant. Il se peut
+        que vous rencontriez des difficultés à traiter certaines images,
+        dans ce cas, vous pouvez passer à l\'image suivante.</string> 
+    <string name="help_game_fragment_2">Une barre de progression vous montre la 
+        proportion de points qui sont déjà relativement bien séparés et qui ne 
+        seront plus montrés à l\'écran. Vous avez un certain temps pour traiter
+        les images. Vous débutez la partie avec 20 secondes au compteur. 
+        Chaque fois que vous validez un tracé, vous gagnerez 2 secondes 
+        supplémentaires. Le temps est une ressource précieuse, faites-y 
+        attention ! Mais n\'hésitez pas à passer à l\'image suivante: vous verrez
+        que parfois cela vaut la peine de perdre un peu de temps en passant à
+        une autre image afin d\'obtenir une meilleure situation pour effectuer
+        la coupure. Il est obligatoire d\'avoir des points de part et d\'autre
+        de la droite afin de la valider.</string>
+     <string name="help_game_fragment_3">Au début de chaque niveau, vous obtenez
+         une réserve de 100 points. Après chaque coupure, cette réserve 
+         diminue de 5 points. Cependant, si vous arrivez à créer des
+         groupes qui contiennent des points d\'une seule couleur,
+         appelés groupes purs, seulement 2 points vous seront retirés de la
+         réserve. Dans ce cas, vous verrez la barre de progression se remplir.
+         A la fin du niveau, la réserve est ajoutée à votre score. Ainsi,
+         pour maximiser celui-ci, vous devez réduire autant que vous le pouvez
+         le nombre de séparations et construire des groupes les plus purs 
+         possibles.</string> 
+    <string name="help_learning_fragment_0">Ce mode a été conçu pour des experts
+        dans le domaine de l\'apprentissage automatique. Il permet de construire
+        un arbre de décision à partir d\'une base de données choisie par 
+        l\'utilisateur. Cet arbre de décision est utilisé comme modèle afin de
+        classer des données (ou des objets).</string>
+     <string name="help_learning_fragment_1">Ces objets sont représentés sous 
+        la forme de Scatter Plots. La première vue de ce mode affiche une série 
+        de Scatter Plots construits en combinant deux attributs. Cette paire
+        utilisée pour générer le Scatter Plot est mentionnée à l\'intérieur de la
+        vignette correspondante.</string>
+    <string name="help_learning_fragment_2_0">Quand vous avez choisi un 
+        Scatter Plot parmi ceux présents dans la grille, vous pouvez le traiter
+        exactement de la même façon que dans le mode Jeu.</string>
+    <string name="help_learning_fragment_2_1">Après une séparation, deux noeuds
+        enfants au noeud courant sont créés dans l\'arbre et vous pouvez 
+        visualiser la grille mais seulement avec les objets contenus dans un
+        des deux noeuds créés. Il est possible de continuer le traitement du noeud
+        si vous estimez que celui-ci n\'est pas encore assez pur. Dans le cas 
+        contraire, le bouton \"Stop\" permet d\'affticher les autres noeuds.</string>
+    <string name="help_learning_fragment_3">Un bouton On-Off en haut à droite
+        de la vue permet de tracer seulement des droites horizontales ou 
+        verticales. Ce mode est utilisé pour comparer les arbres construits 
+        avec des algorithmes d\'apprentissage automatique basés sur des arbres 
+        de décision. A tout moment, certaines informations
+        sont disponibles dans le bas de l\'écran. Une erreur globale et locale 
+        sont fournies.\nL\'erreur locale (EL) est le pourcentage d\'objets du
+        noeud courant qui ne font pas partie de la même classe (ou couleur) que
+        la classe majoritaire dans le noeud. Entre parenthèses, il est affiché
+        le nombre d\'objets inclus dans le noeud courant par rapport au nombre
+        total d\'objets de l\'ensemble.\nL\'erreur globale (EG) est une somme
+        pondérée des erreurs locales de chaque feuille de l\'arbre courant. 
+        Ainsi, vous devez minimiser l\'erreur locale de chaque noeud afin de
+        réduire autant que possible l\'erreur globale de l\'arbre entier.\n</string>
+    <string name="help_learning_fragment_4">Chaque erreur est montrée pour 
+        l\'ensemble d\'apprentissage (LS) et l\'ensemble de test (TS). 
+        Ces ensembles sont des sous-ensembles disctincts de tous les objets 
+        de la base de données. L\'ensemble d\'apprentissage 
+        est la partie des objets qui sont dessinés à l\'écran. L\'ensemble 
+        de test est le reste des objets qui sont cachés à l\'utilisateur afin
+        de pouvoir comparer le modèle sur des données non traitées.\nDurant
+        toute la construction de l\'arbre, le bouton \"Vue de l\'arbre\" permet
+        d\'avoir une vue hiérarchique de celui-ci. Vous pouvez ainsi parcourir
+        chaque noeud de l\'arbre en cliquant dessus. Quand vous êtes au noeud
+        courant, cliquer sur son ID affiche l\'équation respectée par tous les
+        objets qui y sont inclus.</string>
+    <string name="help_learning_fragment_5_0">Une barre de progression montre aussi
+        l\'avancée du traitement. La partie bleu clair représente la
+        proportion d\'objets visibles à l\'écran. Au début, nous sommes à la
+        racine de l\'arbre et nous pouvons voir tous les objets de la base de 
+        données.</string>
+    <string name="help_learning_fragment_5_1">La partie grisée correspond aux
+        objets qui ne sont pas encore montrés. Après une séparation, seulement 
+        une partie des objets sont visibles à l\'écran.</string>
+    <string name="help_learning_fragment_5_2">Lorsque du bleu foncé apparaît
+        dans la barre, cela signifie que des objets ont été stoppés et qu\'ils
+        font déjà partie du modèle.</string>
+    <string name="help_learning_fragment_5_3">Une barre complètement bleu foncé
+        avertit l\'utilisateur que tous les objets ont été stoppés et distribués parmi
+        les feuilles de l\'arbre. A ce moment, l\'arbre est complètement construit
+        et un modèle a été établi.</string>
+    <string name="about_txt">Le projet Treece est ce qu\'on appelle un 
+        \"Game With A Purpose\", c\'est à dire un jeu à but scientifique. 
+        Cette application est un outil de construction d\'arbres de décision 
+        développé dans le cadre d\'une thèse de Master sur l\'apprentissage 
+        automatique. L\'objectif de ce travail est d\'estimer la capacité de 
+        l\'homme à classer des objets et de comparer celle-ci à des algorithmes 
+        d\'apprentissage supervisé.</string>
+             
+</resources>

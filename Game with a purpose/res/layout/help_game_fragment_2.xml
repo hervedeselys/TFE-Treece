@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        style="?android:textAppearanceLarge"
+        android:layout_marginTop="@dimen/title_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="@string/help_game_u"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/page_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/text_size"
+        android:text="@string/page_number_game_3" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:contentDescription="@string/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/page_number"
+        android:src="@drawable/navigation_next_item" />
+
+    <ImageView
+        android:id="@+id/previous"
+        android:contentDescription="@string/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/page_number"
+        android:src="@drawable/navigation_previous_item" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/text_padding"
+        android:text="@string/help_game_fragment_2"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<resources>
+    
+    <string name="app_name">Treece</string>
+    <string name="the_game_u"><u>The Game</u></string>   
+    <string name="the_game">The Game</string>
+    <string name="game_with_a_purpose"><u>Treece</u></string>
+    <string name="learning">Learning</string>
+    <string name="leave">Exit</string>
+    <string name="ranking">Ranking</string>
+    <string name="back">Back</string>
+    <string name="go">Go !</string>
+    <string name="new_game">New game</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="top10_title">Top 10</string>
+    <string name="rank_header">Rank</string>
+    <string name="score_ranking">Score</string>
+    <string name="player_ranking">Player</string>
+    <string name="rank_1">1.</string>
+    <string name="rank_2">2.</string>
+    <string name="rank_3">3.</string>
+    <string name="rank_4">4.</string>
+    <string name="rank_5">5.</string>
+    <string name="rank_6">6.</string>
+    <string name="rank_7">7.</string>
+    <string name="rank_8">8.</string>
+    <string name="rank_9">9.</string>
+    <string name="rank_10">10.</string>
+    <string name="score">Score:</string>
+    <string name="level_h">Level:</string>
+    <string name="level">Level</string>
+    <string name="timer_header">Time:</string>
+    <string name="timer_over">Time is over !</string>
+    <string name="game_over">Game Over</string>
+    <string name="stop">Stop</string>
+    <string name="validate">Validate</string>
+    <string name="tree_view">Tree view</string>
+    <string name="finish">Finish</string>
+    <string name="straightOff">Straight Off</string>
+    <string name="straightOn">Straight On</string>
+    <string name="global_error">GE: </string>
+    <string name="local_error">LE: </string>
+    <string name="n_scatter">Scatter Plot:</string>
+    <string name="page_info">Page: </string>
+    <string name="help">Help</string>
+    <string name="help_u"><u>Help</u></string>
+    <string name="help_game">The Game mode</string>
+    <string name="help_game_u"><u>The Game mode</u></string>
+    <string name="help_learning">The Learning mode</string>
+    <string name="help_learning_u"><u>The Learning mode</u></string>
+    <string name="about">About</string>
+    <string name="about_u"><u>About</u></string>
+    <string name="page_number_game_1">1/4</string>
+    <string name="page_number_game_2">2/4</string>
+    <string name="page_number_game_3">3/4</string>
+    <string name="page_number_game_4">4/4</string>
+    <string name="page_number_learning_1">1/6</string>
+    <string name="page_number_learning_2">2/6</string>
+    <string name="page_number_learning_3">3/6</string>
+    <string name="page_number_learning_4">4/6</string>
+    <string name="page_number_learning_5">5/6</string>
+    <string name="page_number_learning_6">6/6</string>
+    <string name="dialog_msg_score">Do you want enter your score?</string>
+    <string name="dialog_title_end">Finished</string>
+    <string name="dialog_title_first_time_game">How to play the game?</string>
+    <string name="dialog_msg_first_time_game">This is the first time you launch
+        the application in Game mode. Do you want to go in the help menu in order
+        to learn the rules of the game?</string>
+    <string name="dialog_title_first_time_learning">What is the Learning mode?</string>
+    <string name="dialog_msg_first_time_learning">This mode is made for expert in
+        machine learning. Do you want to have some information about this mode?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_try_again">Try again and do better to enter in the Top 10.</string>
+    <string name="dialog_ranking">Ranking</string>
+    <string name="dialog_enter_name">Enter your name</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_complete">Complete</string>
+    <string name="enjoy">Enjoy the game!</string>
+    <string name="number_of_instances">Number of instances: </string>
+    <string name="number_of_attributes">Number of attributes: </string>
+    <string name="number_of_scatter_plot">Number of Scatter Plots: </string>
+    <string name="number_of_classes">Number of classes: </string>
+    <string name="choose_database">Choose a database</string>
+    <string name="loading">Loading...</string>
+    <string name="network_issue">You need an active connection to the Internet 
+        to use this application. Please, turn on your Wifi or mobile data to 
+        be connected to Internet.</string>
+    <string name="title_network_issue">Internet connection required</string>
+    <string name="process_tree">Processing the tree...</string>
+    <string name="next_node">Retrieving the next node...</string>
+    <string name="build_prev_page">Building the previous page...</string>
+    <string name="build_next_page">Building the next page...</string>
+    <string name="server_unreachable">Server unreachable</string>
+    <string name="server_unreachable_msg">We have a server problem. 
+        Please try again later. Thank you for your comprehension.</string>
+    <string name="thank_you">You have successfully built the tree. You can
+        visualize it by clicking the \"Tree view\" button.\nThank
+        you for your help.</string>
+    <string name="network_lose_title">Connection lost</string>
+    <string name="network_lose_msg">It seems that you may not be connected to the
+        Internet anymore. Please check your Wifi connection or your mobile data.</string>
+    <string name="root_level">Root level</string>
+    <string name="root">Root</string>
+    <string name="node">Node</string>
+    <string name="node_threshold">Node Threshold</string>
+    <string name="left_child">Left Child</string>
+    <string name="right_child">Right Child</string>
+    <string name="current_node"> (Current Node)</string>
+    <string name="current_branch"> (Current Branch)</string>
+    <string name="help_game_fragment_0">The purpose of this game is to separate 
+        points of color. You have to gather points of the same color together. 
+        To do that, your job is to trace a line between these points.</string>
+    <string name="help_game_fragment_1">When it is done, you can validate your 
+        line and try to do the same with the other part of the image. If you 
+        have managed to split points well enough into groups of different color,
+        you will reach the next level. You may encounter difficulty in processing 
+        some images. In this case, you can skip to the next image.</string> 
+    <string name="help_game_fragment_2">A progress bar shows you the proportion 
+        of points that are already well enough separated and that will not be 
+        shown anymore on the screen. You have a certain amount of time
+        to process the images. You begin the game with 20 seconds at the timer.
+        Each time you validate your trace, you will gain 2 extra seconds. Time
+        is a valuable ressource, be careful with it ! But do not hesitate 
+        to skip to an another image: you will see that sometimes it is worth 
+        the trouble of losing some resources to get a better situation for 
+        splitting. It is mandatory to have points on each side of the line 
+        in order to validate it.</string> 
+    <string name="help_game_fragment_3">At the beginning of each level, you
+        have a stock of 100 points. After each split, this stock decreases by 5
+        points. Howewer, if you succeed in creating groups that contains points
+        of one color, called pure groups, only 2 points will be removed
+        from the stock. In this case, you will see the progress bar fill in.
+        At the end of the level, the stock is added to your score. Then, in order
+        to maximize your score, do your best to reduce the number of splits and
+        build as more pure groups as possible.</string>
+    <string name="help_learning_fragment_0">This mode is designed for experts in
+        machine learning. It allows the user to build a decision tree for a database
+        he has chosen. This decision tree is used as a model to classify 
+        data (or objects).</string>
+     <string name="help_learning_fragment_1">These objects are represented in the form of 
+        Scatter Plots. The first view of this mode shows a serie of Scatter Plots
+        made by combining two attributes. This pair used to generate the
+        Scatter Plot is mentionned into the corresponding thumb.</string>
+    <string name="help_learning_fragment_2_0">When you have chosen a Scatter 
+        Plot among those present on the grid, you can process it exactly 
+        the same way as in the Game mode.</string>
+    <string name="help_learning_fragment_2_1">After a split, two child nodes of 
+        the current one are created in the tree and you can review the grid 
+        but only with objects contained in one of the new node created. It is
+        possible to continue the processing of the node if you estimate that it 
+        is not pure enough. In the other case, the \"Stop\" button allows 
+        visualizing the other nodes.</string>
+    <string name="help_learning_fragment_3">A toggle button at the top-right 
+        of the view enables the user to trace only horizontal or vertical lines. 
+        This mode is used to compare trees built with machine learning 
+        algorithm based on decision tree. At any time, some information are 
+        available at the bottom of the screen. A local and a global error
+        are provided.\nThe local error (LE) is the percentage of objects from the 
+        current node that are not part of the majority class in the node. 
+        Between parenthesis, there is the number of objects  
+        included in the current node compared to the total number of objects in 
+        the set.\nThe global error (GE) is the weighted sum of local errors of
+        each leaf from the current tree. So, you have to minimize the local error
+        for each node in order to reduce as far as possible the global error of
+        the entire tree.</string>
+     <string name="help_learning_fragment_4">Each error are shown for the 
+        learning set (LS) and the test set (TS). These sets are disctinct subsets 
+        of all objects from the database. The learning set is the part of objects that are 
+        drawn on the screen. The test set is the rest of the objects that are
+        hidden from the user in order to compare the model on non-processed data.
+        \nDuring all the construction of the tree, the \"Tree view\" button makes 
+        it possible to have a hierarchical view of it. So you can browse each node by 
+        clicking on it. When you are at the current node, clicking on its
+        ID allows the user to see the equation respected by all objects included in it.</string>
+    <string name="help_learning_fragment_5_0">A progress bar also shows the progression
+        of the processing. The light blue part represents the proportion of 
+        visible objects on the screen. At the beginning, we are at 
+        the root of the tree and we can see all the objects of the database. </string>
+    <string name="help_learning_fragment_5_1">The grey part is not yet 
+        shown objects. After a split, only some objects are visible on 
+        the screen.</string>
+    <string name="help_learning_fragment_5_2">When there is dark blue in the
+        bar, it means that some objects have been stopped and are already
+        a part of the model.</string>
+    <string name="help_learning_fragment_5_3">A fully dark blue bar notifies the
+         user that all objects are stopped and  distributed among the leaves 
+         of the tree. At that moment, the tree is completely built and a model
+         has been set up.</string>
+    <string name="about_txt">The Treece project is a game with a purpose. 
+        This application is a building tool for decision trees related to a 
+        master thesis on machine learning. The objective of this work is to 
+        estimate the capacity of humans to classify objects and compare it to 
+        supervised machine learning algorithms.</string>
+</resources>

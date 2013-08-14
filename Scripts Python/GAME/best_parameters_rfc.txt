@@ -1,0 +1,105 @@
+Grid Search CV on Level1
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 1
+--------------------------
+Grid Search CV on Level2
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level3
+Best score: 0.98500
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level4
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 101
+--------------------------
+Grid Search CV on Level5
+Best score: 0.97000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 2
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level6
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level7
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 2
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level8
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level9
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level10
+Best score: 0.97000
+Best parameters set:
+	max_features: 2
+	min_samples_split: 18
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level11
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 4
+	n_estimators: 51
+--------------------------
+Grid Search CV on Level12
+Best score: 0.95000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 151
+--------------------------
+Grid Search CV on Level13
+Best score: 0.94500
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+	n_estimators: 251
+--------------------------
+Grid Search CV on Level14
+Best score: 0.95000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 2
+	n_estimators: 101
+--------------------------
+Grid Search CV on Level15
+Best score: 0.90000
+Best parameters set:
+	max_features: 4
+	min_samples_split: 1
+	n_estimators: 151
+--------------------------

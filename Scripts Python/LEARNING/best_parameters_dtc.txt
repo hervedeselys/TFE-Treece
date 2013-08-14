@@ -1,0 +1,35 @@
+Grid Search CV on IRISM
+Best score: 0.98333
+Best error: 1.66666666667%
+Best parameters set:
+	max_features: 2
+	min_samples_split: 40
+--------------------------
+Grid Search CV on BREASTCANCER
+Best score: 0.97253
+Best error: 2.74725274725%
+Best parameters set:
+	max_features: 5
+	min_samples_split: 96
+--------------------------
+Grid Search CV on PIMA-INDIANS-DIABETES
+Best score: 0.77036
+Best error: 22.9641693811%
+Best parameters set:
+	max_features: 6
+	min_samples_split: 142
+--------------------------
+Grid Search CV on VEHICLEM
+Best score: 0.71196
+Best error: 28.8035450517%
+Best parameters set:
+	max_features: 11
+	min_samples_split: 19
+--------------------------
+Grid Search CV on LANDSAT
+Best score: 0.84949
+Best error: 15.0507328072%
+Best parameters set:
+	max_features: 33
+	min_samples_split: 7
+--------------------------

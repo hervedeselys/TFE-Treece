@@ -1,0 +1,90 @@
+Grid Search CV on Level1
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+--------------------------
+Grid Search CV on Level2
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 33
+--------------------------
+Grid Search CV on Level3
+Best score: 0.98000
+Best parameters set:
+	max_features: 2
+	min_samples_split: 3
+--------------------------
+Grid Search CV on Level4
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 3
+--------------------------
+Grid Search CV on Level5
+Best score: 0.97000
+Best parameters set:
+	max_features: 3
+	min_samples_split: 10
+--------------------------
+Grid Search CV on Level6
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 1
+--------------------------
+Grid Search CV on Level7
+Best score: 0.99500
+Best parameters set:
+	max_features: 2
+	min_samples_split: 10
+--------------------------
+Grid Search CV on Level8
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 38
+--------------------------
+Grid Search CV on Level9
+Best score: 1.00000
+Best parameters set:
+	max_features: 1
+	min_samples_split: 4
+--------------------------
+Grid Search CV on Level10
+Best score: 0.96000
+Best parameters set:
+	max_features: 2
+	min_samples_split: 12
+--------------------------
+Grid Search CV on Level11
+Best score: 1.00000
+Best parameters set:
+	max_features: 3
+	min_samples_split: 4
+--------------------------
+Grid Search CV on Level12
+Best score: 0.94000
+Best parameters set:
+	max_features: 4
+	min_samples_split: 2
+--------------------------
+Grid Search CV on Level13
+Best score: 0.93000
+Best parameters set:
+	max_features: 3
+	min_samples_split: 1
+--------------------------
+Grid Search CV on Level14
+Best score: 0.91500
+Best parameters set:
+	max_features: 3
+	min_samples_split: 21
+--------------------------
+Grid Search CV on Level15
+Best score: 0.84000
+Best parameters set:
+	max_features: 3
+	min_samples_split: 2
+--------------------------

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity" >
+
+    <TextView
+        android:id="@+id/title_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/game_with_a_purpose"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/the_game"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/learning"
+        android:layout_below="@+id/title_app"
+        android:layout_marginTop="30dp"
+        android:text="@string/the_game"
+         android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/learning"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/the_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/learning"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/leave"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/learning"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/leave"
+         android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/help"
+         android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help"
+        android:layout_below="@+id/help"
+        android:layout_marginTop="40dp"
+        android:text="@string/about"
+        android:textSize="@dimen/text_size" />
+    
+</RelativeLayout>
