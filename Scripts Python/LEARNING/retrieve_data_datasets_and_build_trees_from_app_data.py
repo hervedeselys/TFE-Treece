@@ -32,7 +32,6 @@ def most_common(L):
 
 # Main
 if __name__ == "__main__":
-    trees_number = open('number_of_trees_per_database.txt','w')
     for database in databases:
         instances = [[]]   
         listIDTree = []
@@ -101,8 +100,8 @@ if __name__ == "__main__":
                     f.write(line[i]+',')
             f.write('\n')
         f.close()
+        
         print 'Number of trees in '+database+': '+str(len(listIDTree))
-        trees_number.write('Number of trees in '+database+': '+str(len(listIDTree))+'\n')
         treesError = []
         trees= []
         for id in listIDTree:
@@ -339,7 +338,4 @@ if __name__ == "__main__":
         error_set_ts = (misclassification_count_ts/len(testSet))*100
         print 'Error of the set of tree on TS: '+str(error_set_ts)
         f.write(str(error_set_ts))
-        f.close()          
-                    
-        
-    trees_number.close()
+        f.close()                 

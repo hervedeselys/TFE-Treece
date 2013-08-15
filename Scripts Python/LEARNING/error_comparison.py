@@ -17,7 +17,7 @@ max_features_per_database_rfc = [1,1,2,7]
 
 # Main
 if __name__ == "__main__":
-    
+    f = open('number_of_trees_per_database.txt','w')
     errors_algo = []
     errors_mean_treece = []
     errors_set_treece = []
@@ -91,6 +91,7 @@ if __name__ == "__main__":
             database = 'PIMA'
 
         numberOfTrees = len(error_line)
+        f.write('Number of trees in '+database+': '+str(numberOfTrees)+'\n')
         if classifier is 'rfc':
             if numberOfTrees != 0:
                 clf = RandomForestClassifier(n_estimators=numberOfTrees)
@@ -135,6 +136,7 @@ if __name__ == "__main__":
     databases.remove('VEHICLEM')
     databases.insert(3,'VEHICLE')
 
+    f.close()
     w = 0.35
     pl.xlabel('Databases')
     pl.ylabel('Error (%)')

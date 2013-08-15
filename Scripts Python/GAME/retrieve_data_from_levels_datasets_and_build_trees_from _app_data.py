@@ -30,7 +30,6 @@ def most_common(L):
 
 # Main
 if __name__ == "__main__":
-    trees_number = open('number_of_trees_per_level.txt','w')
     for l in range(1,16):
         instances = [[]]   
               
@@ -95,7 +94,6 @@ if __name__ == "__main__":
         f.close()
         
         print 'Number of trees in '+level+': '+str(len(listIDTree))
-        trees_number.write('Number of trees in '+level+': '+str(len(listIDTree))+'\n')
         treesError = []
         trees = []
         for id in listIDTree:
@@ -299,4 +297,3 @@ if __name__ == "__main__":
         print 'Error of the set of tree on TS: '+str(error_set_ts)
         f.write(str(error_set_ts))
         f.close()          
-    trees_number.close()

@@ -16,6 +16,7 @@ max_features_per_level_rfc = [1,1,1,1,1,1,1,1,1,2,1,1,1,1,4]
 
 # Main
 if __name__ == "__main__":
+    f = open('number_of_trees_per_level.txt','w')
     errors_algo = []
     errors_mean_treece = []
     errors_set_treece = []
@@ -60,6 +61,7 @@ if __name__ == "__main__":
                 errors_set_treece.append(float(row[1]))
         
         numberOfTrees = len(error_line)
+        f.write('Number of trees for '+level+': '+str(numberOfTrees)+'\n')
         if classifier is 'rfc':
             clf = RandomForestClassifier(n_estimators=numberOfTrees)
         elif classifier is 'dtc':
@@ -91,7 +93,8 @@ if __name__ == "__main__":
         else:
             errors_treece.append(0)
             print 'No data for '+level
-            
+
+    f.close()       
     w = 0.35
     pl.xlabel('Levels')
     pl.ylabel('Error (%)')
